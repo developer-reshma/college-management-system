@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Management System</title>
+    <link rel="stylesheet" href="faculty.css">
+</head>
+
+<body>
+
+    <div class="container_1">
+        <div class="main_slide">
+            <div>
+                <h1><span>Prof. sunita thakre BSC. IT</span></h1>
+                <p>Experience the flavors of the world at RESTOZA! Our chefs craft unique dishes using fresh,
+                    locally-sourced ingredients. From spicy curries to savory pasta, our menu has something for
+                    everyone. Join us for a culinary journey!
+                </p>
+                <div class="red-btn">More Info<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+            <img src="img/north-indian.avif" alt="">
+        </div>
+        <hr>
+        <div class="main_slide">
+            <div>
+                <h1><span>Prof. Sudarshan Mali BAMMS</span></h1>
+                <p>Experience the flavors of the world at RESTOZA! Our chefs craft unique dishes using fresh,
+                    locally-sourced ingredients. From spicy curries to savory pasta, our menu has something for
+                    everyone. Join us for a culinary journey!
+                </p>
+                <div class="red-btn">More Info<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+            <img src="img/north-indian.avif" alt="">
+        </div>
+        <hr>
+        <div class="main_slide">
+            <div>
+                <h1><span>Prof. meghna mehta BSC. CS</span></h1>
+                <p>Experience the flavors of the world at RESTOZA! Our chefs craft unique dishes using fresh,
+                    locally-sourced ingredients. From spicy curries to savory pasta, our menu has something for
+                    everyone. Join us for a culinary journey!
+                </p>
+                <div class="red-btn">More Info<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+            <img src="img/north-indian.avif" alt="">
+        </div>
+        <hr>
+        <div class="main_slide">
+            <div>
+                <h1><span>Prof. vaibhav naine BAF</span></h1>
+                <p>Experience the flavors of the world at RESTOZA! Our chefs craft unique dishes using fresh,
+                    locally-sourced ingredients. From spicy curries to savory pasta, our menu has something for
+                    everyone. Join us for a culinary journey!
+                </p>
+                <div class="red-btn">More Info<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+            <img src="img/north-indian.avif" alt="">
+        </div>
+        <hr>
+    </div>
+
+    <div class="container">
+        <h1>College Management System</h1>
+
+        <!-- Form to add a student -->
+        <div class="form-container">
+            <h2>Add Teacher</h2>
+            <form id="studentForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="rollNumber">Teacher ID:</label>
+                <input type="text" id="rollNumber" required>
+
+                <label for="course">Department:</label>
+                <input type="text" id="course" required>
+
+                <button type="submit">Add Teacher</button>
+            </form>
+        </div>
+
+        <!-- Search Box -->
+        <div class="search-container">
+            <h2>Search Teacher</h2>
+            <input type="text" id="search" placeholder="Search by Name or Roll Number" onkeyup="searchStudents()">
+        </div>
+
+        <!-- Table to display students -->
+        <div class="table-container">
+            <h2>Teacher List</h2>
+            <table id="studentTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Teacher ID</th>
+                        <th>department</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="studentList"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

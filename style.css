@@ -1,0 +1,253 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.main_page {
+  background-image: url("img/Free\ \ Wallpaper\,\ Yearbook\,\ Classmates\ Background\ Images\,\ Graduation\ Background\ Photo\ Background\ PNG\ and\ Vectors.jpeg");
+  color: black;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.main_page2 {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.79;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo h2 {
+  color: red;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links li a {
+  color: white;
+  font-size: 18px;
+}
+
+.navbar .nav-links li a:hover {
+  color: white;
+}
+
+/* Welcome Section */
+.welcome-section {
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.welcome-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.welcome-section p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+.cta-btn {
+  background-color: white;
+  color: #4CAF50;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #0f4a12;
+  color: white;
+  border: 1px solid white;
+}
+
+/* Features Section */
+.features-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.features-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.feature-card a {
+  color: #4CAF50;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.feature-card a:hover {
+  color: #45a049;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+/*----------------our features-------------*/
+
+#features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.collexa_features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: rgb(253, 176, 34);
+}
+
+.main_section {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
+  margin: 80px 0;
+}
+
+.box1 {
+  height: 440px;
+  width: 25%;
+  background-color: black;
+  color: white;
+}
+
+.box1:hover {
+  background-color: rgba(70, 64, 64, 0.622);
+  color: black;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.box {
+  align-items: center;
+  height: 350px;
+  width: 30%;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.box, img {
+  height: 300px;
+  width: 300px;
+}
+
+.box, h2 {
+  color: rgb(130, 22, 22);
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.btn {
+  height: 30px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: red;
+  cursor: pointer;
+  padding-top: 5px;
+} 
+
+a {
+  text-decoration: none;
+  margin: 15px;
+  color: white;
+  font-weight: 400;
+}
+
+.btn:hover {
+border: 1px solid rgb(5, 5, 24);
+background-color: blue;
+}
+
